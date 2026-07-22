@@ -7,57 +7,57 @@
 ## Pages
 
 ### בית
-https://casa-verona-df483b55.zappy5.app
+https://example.com
 מפעל רהיטים בוטיק בצפון הארץ המייצר ספות, כורסאות וריהוט סלון בשילוב עץ מלא וקצפי HR איכותיים. שלמו רק אחרי שהתאהבתם – ללא מקדמה. בואו לעצב את הבית שלכם.
 
 ### אודות
-https://casa-verona-df483b55.zappy5.app/about
+https://example.com/about
 מפעל רהיטים משפחתי בצפון המשלב אומנות איטלקית עם חומרי גלם מובחרים. אנו מייצרים רהיטים מוסדיים ופרטיים באיכות ללא פשרות, עם מודל תשלום שמעניק לכם שקט נפשי.
 
 ### אומנות
-https://casa-verona-df483b55.zappy5.app/craftsmanship
+https://example.com/craftsmanship
 גלו את סודות האומנות של קאזה ורונה: עץ סנדוויץ&#39; חזק, קצפי HR בצפיפות גבוהה ושילובי עץ מלא. טכניקות ייצור רהיטים מתקדמות שמבטיחות מראה מושלם לשנים. היכנסו להציץ בעבודת היד.
 
 ### גלריה
-https://casa-verona-df483b55.zappy5.app/gallery
+https://example.com/gallery
 גלריית תמונות מעוררת השראה של ספות, כורסאות וריהוט סלון בעיצוב יוקרתי. התרשמו מהפרויקטים האחרונים שלנו בייצור רהיטים מוסדיים ופרטיים. מצאתם משהו שאהבתם? בואו נדבר.
 
 ### חוות דעת
-https://casa-verona-df483b55.zappy5.app/reviews
+https://example.com/reviews
 חוות דעת אמיתיות מלקוחות שהתאהבו בספות וברכות הסלון שייצרנו עבורם. גלו מדוע משפחות ועסקים בוחרים בנו לייצור רהיטים מוסדיים ופרטיים. הצטרפו למעגל המרוצים.
 
 ### צור קשר
-https://casa-verona-df483b55.zappy5.app/contact
+https://example.com/contact
 מוכנים להתאהב בריהוט החדש שלכם? צרו קשר עוד היום לייעוץ עיצובי חינם, התאמת בדים ותכנון חלל. מומחי ייצור הרהיטים שלנו מחכים לכם. בואו נתחיל בפרויקט ללא כל התחייבות.
 
 ### Products
-https://casa-verona-df483b55.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Casa Verona
 
 ### Product Detail
-https://casa-verona-df483b55.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Casa Verona
 
 ### Category
-https://casa-verona-df483b55.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Casa Verona
 
 ### תודה שפניתם אלינו | Casa Verona
-https://casa-verona-df483b55.zappy5.app/thank-you
+https://example.com/thank-you
 Casa Verona - תודה שפניתם אלינו | Casa Verona
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://casa-verona-df483b55.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://casa-verona-df483b55.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://casa-verona-df483b55.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -86,8 +86,8 @@ Furniture Manufacturing
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://casa-verona-df483b55.zappy5.app/sitemap.xml
-- Robots: https://casa-verona-df483b55.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://casa-verona-df483b55.zappy5.app/llms-full.txt
-- Products (JSON): https://casa-verona-df483b55.zappy5.app/products.json
-- Products (Google Merchant RSS): https://casa-verona-df483b55.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
