@@ -789,13 +789,13 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "df483b55-a4a5-4579-b20c-d7578f7158c0";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "df483b55-a4a5-4579-b20c-d7578f7158c0";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1302,9 +1302,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="index-hero-section" style>
   <!-- Full-bleed Background Image -->
-  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A warm, refined Italian-inspired interior with a large Casa Verona sectional sofa in a soft cream bouclé fabric, placed in a sun-drenched living room with high ceilings, arched windows, sheer linen curtains, a matte travertine coffee table, and a subtle olive tree in the corner. The lighting is soft and cinematic, with rich shadows and warm highlights." width="1400" height="900" src="/assets/site-image-index-hero-image-1.webp" alt="סלון איטלקי יוקרתי עם ספת קאזה ורונה" class="index-hero-bg" decoding="async" />
+  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A warm, refined Italian-inspired interior with a large Casa Verona sectional sofa in a soft cream bouclé fabric, placed in a sun-drenched living room with high ceilings, arched windows, sheer linen curtains, a matte travertine coffee table, and a subtle olive tree in the corner. The lighting is soft and cinematic, with rich shadows and warm highlights." width="1400" height="900" src="/assets/site-image-index-hero-image-1.webp" alt="סלון איטלקי יוקרתי עם ספת קאזה ורונה" class="index-hero-bg" data-hero-background="true" data-element-type="image" data-element-id="img-1784746702806-xz01w0r4k" style="pointer-events: auto !important; object-position: 50% 50%;" decoding="async" />
 
   <!-- Scrim Overlay for Text Legibility -->
   <div class="index-hero-scrim" aria-hidden="true"></div>
@@ -1314,12 +1314,12 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
     <div class="index-hero-label">
       <span class="index-hero-est">EST. 2015</span>
     </div>
-    <h1 class="index-hero-title">קאזה ורונה</h1>
+    <h1 class="index-hero-title" style></h1><h1 style><i>casa verona</i></h1>
     <h3 class="index-hero-subtitle">יוקרה איטלקית, בעבודת יד בצפון הארץ</h3>
     <p class="index-hero-description">ייצור בוטיק של ספות, כורסאות ורהיטי סלון יוקרתיים תוך שימוש בעץ מלא, עץ סנדוויץ' וספוגי HR בצפיפות גבוהה (HR40, HR35, HR30) המבטיחים נראות, נוחות וגימור מושלם לאורך שנים.</p>
     
     <div class="index-hero-ctas">
-      <a href="#contact" class="index-hero-btn index-hero-btn-primary">קבעו פגישת ייעוץ ללא עלות</a>
+      <a href="#contact" class="index-hero-btn index-hero-btn-primary" data-element-type="button" data-element-id="btn-1784746702794-60xs5rosh" data-native-element="true">קבעו פגישת ייעוץ ללא עלות</a>
       
     </div>
   </div>
