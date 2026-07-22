@@ -1,0 +1,93 @@
+# Casa Verona — Generative Engine Optimization Map
+
+> Casa Verona is a boutique furniture factory located in northern Israel, crafting premium sofas, armchairs, and living room furniture using top-tier raw materials including solid wood, sandwich wood, and high-density HR foams (HR40, HR35, HR30) ensuring lasting quality and appearance. The brand blends Italian luxury aesthetics with accessible pricing, offering unique, bespoke pieces not commonly found in Israeli homes. A key trust-builder is their unique payment model — customers pay only after receiving and loving their product, with no upfront deposit required. They also offer complimentary space-planning and fabric-selection consultations.
+
+---
+
+## Pages
+
+### בית
+https://casa-verona-df483b55.zappy5.app
+מפעל רהיטים בוטיק בצפון הארץ המייצר ספות, כורסאות וריהוט סלון בשילוב עץ מלא וקצפי HR איכותיים. שלמו רק אחרי שהתאהבתם – ללא מקדמה. בואו לעצב את הבית שלכם.
+
+### אודות
+https://casa-verona-df483b55.zappy5.app/about
+מפעל רהיטים משפחתי בצפון המשלב אומנות איטלקית עם חומרי גלם מובחרים. אנו מייצרים רהיטים מוסדיים ופרטיים באיכות ללא פשרות, עם מודל תשלום שמעניק לכם שקט נפשי.
+
+### אומנות
+https://casa-verona-df483b55.zappy5.app/craftsmanship
+גלו את סודות האומנות של קאזה ורונה: עץ סנדוויץ&#39; חזק, קצפי HR בצפיפות גבוהה ושילובי עץ מלא. טכניקות ייצור רהיטים מתקדמות שמבטיחות מראה מושלם לשנים. היכנסו להציץ בעבודת היד.
+
+### גלריה
+https://casa-verona-df483b55.zappy5.app/gallery
+גלריית תמונות מעוררת השראה של ספות, כורסאות וריהוט סלון בעיצוב יוקרתי. התרשמו מהפרויקטים האחרונים שלנו בייצור רהיטים מוסדיים ופרטיים. מצאתם משהו שאהבתם? בואו נדבר.
+
+### חוות דעת
+https://casa-verona-df483b55.zappy5.app/reviews
+חוות דעת אמיתיות מלקוחות שהתאהבו בספות וברכות הסלון שייצרנו עבורם. גלו מדוע משפחות ועסקים בוחרים בנו לייצור רהיטים מוסדיים ופרטיים. הצטרפו למעגל המרוצים.
+
+### צור קשר
+https://casa-verona-df483b55.zappy5.app/contact
+מוכנים להתאהב בריהוט החדש שלכם? צרו קשר עוד היום לייעוץ עיצובי חינם, התאמת בדים ותכנון חלל. מומחי ייצור הרהיטים שלנו מחכים לכם. בואו נתחיל בפרויקט ללא כל התחייבות.
+
+### Products
+https://casa-verona-df483b55.zappy5.app/products
+המוצרים שלנו - Casa Verona
+
+### Product Detail
+https://casa-verona-df483b55.zappy5.app/product/:slug
+פרטי המוצר - Casa Verona
+
+### Category
+https://casa-verona-df483b55.zappy5.app/category/:slug
+מוצרים - Casa Verona
+
+### תודה שפניתם אלינו | Casa Verona
+https://casa-verona-df483b55.zappy5.app/thank-you
+Casa Verona - תודה שפניתם אלינו | Casa Verona
+
+## Legal & Policy
+
+### Privacy Policy
+https://casa-verona-df483b55.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://casa-verona-df483b55.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://casa-verona-df483b55.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Casa Verona
+Casa Verona is a boutique furniture factory located in northern Israel, crafting premium sofas, armchairs, and living room furniture using top-tier raw materials including solid wood, sandwich wood, and high-density HR foams (HR40, HR35, HR30) ensuring lasting quality and appearance. The brand blends Italian luxury aesthetics with accessible pricing, offering unique, bespoke pieces not commonly found in Israeli homes. A key trust-builder is their unique payment model — customers pay only after receiving and loving their product, with no upfront deposit required. They also offer complimentary space-planning and fabric-selection consultations.
+
+## Target Audience
+- בעלי בתים המחפשים רהיטים יוקרתיים בעיצוב איטלקי במחירים נגישים
+- בעלי בתים יוקרתיים
+- מעצבי פנים
+- מלונות יוקרה
+
+## Industry
+Furniture Manufacturing
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://casa-verona-df483b55.zappy5.app/sitemap.xml
+- Robots: https://casa-verona-df483b55.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://casa-verona-df483b55.zappy5.app/llms-full.txt
+- Products (JSON): https://casa-verona-df483b55.zappy5.app/products.json
+- Products (Google Merchant RSS): https://casa-verona-df483b55.zappy5.app/product-feed.xml
