@@ -12462,6 +12462,103 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+html[dir="rtl"] .instagram-float {
+  right: 20px;
+  left: auto;
+}
+
+html[dir="ltr"] .instagram-float,
+html:not([dir]) .instagram-float {
+  left: 20px;
+  right: auto;
+}
+
+@media (max-width: 768px) {
+html[dir="rtl"] .instagram-float {
+  right: 14px;
+}
+
+html[dir="ltr"] .instagram-float,
+  html:not([dir]) .instagram-float {
+  left: 14px;
+}
+}
+
+body a.instagram-float,
+.site-footer a.instagram-float,
+body .instagram-float {
+  position: fixed;
+  bottom: 92px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+body a.instagram-float:hover,
+.site-footer a.instagram-float:hover,
+body .instagram-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+body a.instagram-float,
+  body .instagram-float {
+  width: 50px;
+  height: 50px;
+  bottom: 84px;
+  font-size: 26px;
+}
+}
+/* zappy-self-heal */
+body a.instagram-float { bottom: 92px !important; }
+body a.instagram-float { width: 60px !important; }
+body a.instagram-float { height: 60px !important; }
+
+
+html[dir="rtl"] body a.instagram-float,
+html[dir="rtl"] body .instagram-float {
+  right: 20px;
+  left: auto;
+}
+
+html[dir="ltr"] body a.instagram-float,
+html:not([dir]) body a.instagram-float,
+html[dir="ltr"] body .instagram-float,
+html:not([dir]) body .instagram-float {
+  left: 20px;
+  right: auto;
+}
+
+@media (max-width: 768px) {
+html[dir="rtl"] body a.instagram-float,
+  html[dir="rtl"] body .instagram-float {
+  right: 14px;
+}
+
+html[dir="ltr"] body a.instagram-float,
+  html:not([dir]) body a.instagram-float,
+  html[dir="ltr"] body .instagram-float,
+  html:not([dir]) body .instagram-float {
+  left: 14px;
+}
+}
+/* zappy-self-heal */
+html[dir="ltr"] body a.instagram-float { left: 20px !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
