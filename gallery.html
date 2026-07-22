@@ -789,7 +789,7 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "df483b55-a4a5-4579-b20c-d7578f7158c0";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "df483b55-a4a5-4579-b20c-d7578f7158c0";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1302,21 +1302,21 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
 </script>
   
   <main id="main">
-    <section class="gallery-showcase-section" data-layout-spec="גלריה-showcase">
+    <section class="gallery-showcase-section" data-layout-spec="גלריה-showcase" id="gallery-showcase-section" style="margin-top: -140px !important; padding-top: 140px !important;">
   <div class="gallery-container">
     <!-- Section Header -->
     <div class="gallery-header">
-      <h1>עבודות נבחרות מבית קאזה ורונה</h1>
+      <h1 style>עבודות נבחרות מבית-<br />Casa Verona</h1>
       <div class="accent-rule"></div>
       <p>מבט אוצר על פריטי סלון ייחודיים, ישיבה מעודנת וחללי פנים שאינם שגרתיים – כולם נוצרו עבור לקוחות המבקשים משהו יוצא דופן.</p>
     </div>
 
     <!-- Masonry Grid -->
-    <div class="gallery-grid">
+    <div class="gallery-grid zappy-preserve-css-grid" id="zappy-auto-grid-1784748817835-witb2c" data-zappy-auto-grid="true" data-original-item-width="624" data-original-gap="32px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 296px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 296px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
       <!-- Item 1 - Large Landscape -->
-      <div class="gallery-item gallery-item-large">
+      <div class="gallery-item gallery-item-large" data-grid-item-index="0">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" fetchpriority="low" data-placeholder="gallery-showcase-image-1" data-context="A luxurious modern living room featuring a large L-shaped sectional sofa in warm taupe fabric, with a marble coffee table and soft ambient lighting, photographed for a high-end furniture catalog" width="800" height="533" src="/assets/site-image-gallery-showcase-image-1.webp" alt="סלון מפואר עם ספה מודולרית בצבע חול חם" decoding="async" />
+          <img loading="lazy" fetchpriority="low" data-placeholder="gallery-showcase-image-1" data-context="A luxurious modern living room featuring a large L-shaped sectional sofa in warm taupe fabric, with a marble coffee table and soft ambient lighting, photographed for a high-end furniture catalog" width="800" height="533" src="/assets/site-image-gallery-showcase-image-1.webp" alt="סלון מפואר עם ספה מודולרית בצבע חול חם" data-element-type="image" data-element-id="img-1784748817788-gfpfikln0" style decoding="async" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">סלון קאזה ורונה</span>
@@ -1325,9 +1325,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 2 - Portrait -->
-      <div class="gallery-item gallery-item-tall">
+      <div class="gallery-item gallery-item-tall" data-grid-item-index="1">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-2" data-context="An elegant emerald green velvet armchair with gold-toned metal legs, placed in a minimalist corner with a floor lamp and a side table, editorial furniture photography" width="600" height="800" src="/assets/site-image-gallery-showcase-image-2.webp" alt="כורסת יוקרה מקטיפה ירוקה עם רגלי מתכת מוזהבות" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-2" data-context="An elegant emerald green velvet armchair with gold-toned metal legs, placed in a minimalist corner with a floor lamp and a side table, editorial furniture photography" width="600" height="800" src="/assets/site-image-gallery-showcase-image-2.webp" alt="כורסת יוקרה מקטיפה ירוקה עם רגלי מתכת מוזהבות" data-element-type="image" data-element-id="img-1784748817788-k63m05llq" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">כורסת ורונה</span>
@@ -1336,9 +1336,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 3 - Square -->
-      <div class="gallery-item gallery-item-square">
+      <div class="gallery-item gallery-item-square" data-grid-item-index="2">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-3" data-context="A beautifully styled dining room with a solid oak dining table surrounded by six upholstered chairs in light beige linen fabric, under a modern chandelier, bright airy interior" width="600" height="600" src="/assets/site-image-gallery-showcase-image-3.webp" alt="פינת אוכל מודרנית עם שולחן עץ אלון מלא" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-3" data-context="A beautifully styled dining room with a solid oak dining table surrounded by six upholstered chairs in light beige linen fabric, under a modern chandelier, bright airy interior" width="600" height="600" src="/assets/site-image-gallery-showcase-image-3.webp" alt="פינת אוכל מודרנית עם שולחן עץ אלון מלא" data-element-type="image" data-element-id="img-1784748817788-7k3nmlpun" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">פינת אוכל מילאנו</span>
@@ -1347,9 +1347,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 4 - Portrait -->
-      <div class="gallery-item gallery-item-tall">
+      <div class="gallery-item gallery-item-tall" data-grid-item-index="3">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-4" data-context="A sophisticated home office setup featuring a dark walnut wood desk and a cognac leather executive chair, with built-in bookshelves in the background, warm lighting" width="600" height="800" src="/assets/site-image-gallery-showcase-image-4.webp" alt="כיסא מנהלים מעור קוניאק במשרד ביתי יוקרתי" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-4" data-context="A sophisticated home office setup featuring a dark walnut wood desk and a cognac leather executive chair, with built-in bookshelves in the background, warm lighting" width="600" height="800" src="/assets/site-image-gallery-showcase-image-4.webp" alt="כיסא מנהלים מעור קוניאק במשרד ביתי יוקרתי" data-element-type="image" data-element-id="img-1784748817788-w4hyu3aq1" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">כיסא ברלין</span>
@@ -1358,9 +1358,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 5 - Large Landscape -->
-      <div class="gallery-item gallery-item-large">
+      <div class="gallery-item gallery-item-large" data-grid-item-index="4">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-5" data-context="A spacious open-plan living area with a curved modular sofa in soft cream boucle fabric, complemented by a textured rug and abstract wall art, contemporary luxury interior design" width="800" height="533" src="/assets/site-image-gallery-showcase-image-5.webp" alt="סלון פתוח עם ספה מעוגלת מבד בוקלה בצבע שמנת" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-5" data-context="A spacious open-plan living area with a curved modular sofa in soft cream boucle fabric, complemented by a textured rug and abstract wall art, contemporary luxury interior design" width="800" height="533" src="/assets/site-image-gallery-showcase-image-5.webp" alt="סלון פתוח עם ספה מעוגלת מבד בוקלה בצבע שמנת" data-element-type="image" data-element-id="img-1784748817788-76ycsofnl" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">סלון קאזה ורונה</span>
@@ -1369,9 +1369,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 6 - Square -->
-      <div class="gallery-item gallery-item-square">
+      <div class="gallery-item gallery-item-square" data-grid-item-index="5">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-6" data-context="A pair of elegant bar stools with dark grey velvet upholstery and brushed brass footrests, placed at a marble kitchen island, modern residential interior" width="600" height="600" src="/assets/site-image-gallery-showcase-image-6.webp" alt="זוג כיסאות בר מקטיפה אפורה במטבח מודרני" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-6" data-context="A pair of elegant bar stools with dark grey velvet upholstery and brushed brass footrests, placed at a marble kitchen island, modern residential interior" width="600" height="600" src="/assets/site-image-gallery-showcase-image-6.webp" alt="זוג כיסאות בר מקטיפה אפורה במטבח מודרני" data-element-type="image" data-element-id="img-1784748817788-nk981fd7m" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">כיסאות בר ורונה</span>
@@ -1380,9 +1380,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 7 - Portrait -->
-      <div class="gallery-item gallery-item-tall">
+      <div class="gallery-item gallery-item-tall" data-grid-item-index="6">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-7" data-context="A luxurious master bedroom corner featuring a tufted upholstered bed frame in soft blush pink velvet, with matching bedside tables and silk curtains, romantic elegant interior" width="600" height="800" src="/assets/site-image-gallery-showcase-image-7.webp" alt="מיטה מרופדת בקטיפה ורודה בחדר שינה יוקרתי" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-7" data-context="A luxurious master bedroom corner featuring a tufted upholstered bed frame in soft blush pink velvet, with matching bedside tables and silk curtains, romantic elegant interior" width="600" height="800" src="/assets/site-image-gallery-showcase-image-7.webp" alt="מיטה מרופדת בקטיפה ורודה בחדר שינה יוקרתי" data-element-type="image" data-element-id="img-1784748817788-2z0zfy2yt" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">מיטת קאזה ורונה</span>
@@ -1391,9 +1391,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 8 - Large Landscape -->
-      <div class="gallery-item gallery-item-large">
+      <div class="gallery-item gallery-item-large" data-grid-item-index="7">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-8" data-context="A sophisticated media wall with a custom-built walnut wood TV unit and floating shelves, paired with a low-profile modern sofa in charcoal grey, ambient mood lighting" width="800" height="533" src="/assets/site-image-gallery-showcase-image-8.webp" alt="קיר טלוויזיה מעוצב מעץ אגוז עם ספה מודרנית" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-8" data-context="A sophisticated media wall with a custom-built walnut wood TV unit and floating shelves, paired with a low-profile modern sofa in charcoal grey, ambient mood lighting" width="800" height="533" src="/assets/site-image-gallery-showcase-image-8.webp" alt="קיר טלוויזיה מעוצב מעץ אגוז עם ספה מודרנית" data-element-type="image" data-element-id="img-1784748817788-u6nquhzhi" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">מזנון קאזה ורונה</span>
@@ -1402,9 +1402,9 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
       </div>
 
       <!-- Item 9 - Square -->
-      <div class="gallery-item gallery-item-square">
+      <div class="gallery-item gallery-item-square" data-grid-item-index="8">
         <div class="gallery-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-9" data-context="A statement accent chair with a high backrest in rich mustard yellow velvet, featuring deep button tufting and turned wooden legs, set against a dark accent wall, dramatic lighting" width="600" height="600" src="/assets/site-image-gallery-showcase-image-9.webp" alt="כורסת אמירה מקטיפה צהובה עם ריפוד כפתורים" fetchpriority="low" />
+          <img loading="lazy" decoding="async" data-placeholder="gallery-showcase-image-9" data-context="A statement accent chair with a high backrest in rich mustard yellow velvet, featuring deep button tufting and turned wooden legs, set against a dark accent wall, dramatic lighting" width="600" height="600" src="/assets/site-image-gallery-showcase-image-9.webp" alt="כורסת אמירה מקטיפה צהובה עם ריפוד כפתורים" data-element-type="image" data-element-id="img-1784748817788-bf8tzp8cw" style fetchpriority="low" />
         </div>
         <div class="gallery-caption">
           <span class="caption-title">כורסת פירנצה</span>
